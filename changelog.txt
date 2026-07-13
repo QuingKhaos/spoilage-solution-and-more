@@ -2,6 +2,7 @@
 Version: 1.0.0
 Date: 2026-07-13
   Features:
+    - Configure better default for frozen spoilage multiplicator.
     - Configure proper import location for canned and frozen vanilla spoilage solution items.
     - Move canned items and their recipes to barreling group if installed.
     - If not, move canned items and their recipes to bioprocessing tab if installed.
