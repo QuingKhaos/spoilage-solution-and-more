@@ -47,3 +47,11 @@ if mods["pHactorio"] then
     order = "a[compat]-c[pHactorio]",
   } :commit()
 end
+
+khaoslib_setting:load {
+  type = "bool-setting",
+  name = "spoilage-solution-and-more-tweaks-frozen-spoilage",
+  setting_type = "startup",
+  default_value = true,
+  order = "b[tweaks]-a[aquilo-seabloom-algaculture]-b[frozen-spoilage]",
+} :commit()

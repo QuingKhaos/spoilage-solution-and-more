@@ -1,6 +1,8 @@
 ---------------------------------------------------------------------------------------------------
 Version: 1.0.0
 Date: 2026-07-13
+  Features:
+    - Frozen spoilables spoil to frozen spoilage instead of normal spoilage (configurable).
   Compatibility:
     - Add support for Boompuff Agriculture.
     - Add support for Fluroflux: Stingfrond Agriculture.
