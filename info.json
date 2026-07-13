@@ -14,7 +14,7 @@
     "khaoslib >= 1.15.0",
 
     "spoilage-solution-fork >= 1.2.0",
-    "spoilage-solution-lib >= 1.0.0",
+    "spoilage-solution-lib >= 1.1.1",
 
     "? aquilo-seabloom-algaculture >= 0.4.4",
     "? boompuff-agriculture >= 1.1.0",
