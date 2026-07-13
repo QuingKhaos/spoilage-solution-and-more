@@ -17,8 +17,7 @@ if mods["fluroflux"] and settings.startup["spoilage-solution-and-more-compat-flu
   spoilage_solution_lib.create_canned_item(canned_stingfrond_seed_def)
   spoilage_solution_lib.create_uncanning_recipe(canned_stingfrond_seed_def)
 
-  --- @type SpoilageSolutionLib.CannedPerishableDefinition
-  local canned_nettles_def = {
+  spoilage_solution_lib.create_canned_perishable {
     type = "item",
     name = "nettles",
     icons = khaoslib_item.get_icons("nettles"),
@@ -28,10 +27,7 @@ if mods["fluroflux"] and settings.startup["spoilage-solution-and-more-compat-flu
     spoil_result = "canned-stingfrond-seed",
   }
 
-  spoilage_solution_lib.create_canned_perishable(canned_nettles_def)
-
-  --- @type SpoilageSolutionLib.CannedPerishableDefinition
-  local canned_fluroflux_def = {
+  spoilage_solution_lib.create_canned_perishable {
     type = "item",
     name = "fluroflux",
     icons = khaoslib_item.get_icons("fluroflux"),
@@ -40,10 +36,7 @@ if mods["fluroflux"] and settings.startup["spoilage-solution-and-more-compat-flu
     default_import_location = "gleba",
   }
 
-  spoilage_solution_lib.create_canned_perishable(canned_fluroflux_def)
-
-  --- @type SpoilageSolutionLib.FrozenPerishableDefinition
-  local frozen_nettles_def = {
+  spoilage_solution_lib.create_frozen_perishable {
     type = "item",
     name = "nettles",
     icons = khaoslib_item.get_icons("nettles"),
@@ -53,10 +46,7 @@ if mods["fluroflux"] and settings.startup["spoilage-solution-and-more-compat-flu
     spoil_result = "stingfrond-seed",
   }
 
-  spoilage_solution_lib.create_frozen_perishable(frozen_nettles_def)
-
-  --- @type SpoilageSolutionLib.FrozenPerishableDefinition
-  local frozen_fluroflux_def = {
+  spoilage_solution_lib.create_frozen_perishable {
     type = "item",
     name = "fluroflux",
     icons = khaoslib_item.get_icons("fluroflux"),
@@ -64,6 +54,4 @@ if mods["fluroflux"] and settings.startup["spoilage-solution-and-more-compat-flu
     subgroup = "agriculture-processes",
     default_import_location = "gleba",
   }
-
-  spoilage_solution_lib.create_frozen_perishable(frozen_fluroflux_def)
 end
