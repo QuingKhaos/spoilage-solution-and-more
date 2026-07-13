@@ -12,4 +12,5 @@ it a bit. If you don't like the support for a given mod or a tweak, each one can
 
 ## Compatible mods
 
+- [Boompuff Agriculture](https://mods.factorio.com/mod/boompuff-agriculture)
 - [Wooden Aquilo: Seabloom Algaculture](https://mods.factorio.com/mod/aquilo-seabloom-algaculture)

@@ -15,7 +15,8 @@
     "! spoilage-solution",
     "spoilage-solution-lib >= 1.0.0",
 
-    "? aquilo-seabloom-algaculture >= 0.4.4"
+    "? aquilo-seabloom-algaculture >= 0.4.4",
+    "? boompuff-agriculture >= 1.1.0"
   ],
   "spoiling_required": true,
   "package": {
