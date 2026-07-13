@@ -2,6 +2,7 @@
 Version: 1.0.0
 Date: 2026-07-13
   Features:
+    - Configure proper import location for canned and frozen vanilla spoilage solution items.
     - Frozen spoilables spoil to frozen spoilage instead of normal spoilage (configurable).
   Compatibility:
     - Add support for Boompuff Agriculture.
