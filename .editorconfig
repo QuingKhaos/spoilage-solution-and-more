@@ -19,7 +19,7 @@ max_line_length = unset
 quote_style = double
 
 # keep/remove/remove_table_only/remove_string_only
-call_arg_parentheses = keep
+call_arg_parentheses = remove_table_only
 
 space_around_table_field_list = false
 

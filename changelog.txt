@@ -4,4 +4,5 @@ Date: 2026-07-13
   Compatibility:
     - Add support for Boompuff Agriculture.
     - Add support for Fluroflux: Stingfrond Agriculture.
+    - Add support for pHactorio.
     - Add support for Wooden Aquilo: Seabloom Algaculture.

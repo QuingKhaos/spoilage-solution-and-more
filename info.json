@@ -8,6 +8,7 @@
   "factorio_version": "2.0",
   "dependencies": [
     "base >= 2.0.77",
+    "(?) quality >= 2.0.77",
 
     "khaoslib >= 1.15.0",
 
@@ -17,7 +18,10 @@
 
     "? aquilo-seabloom-algaculture >= 0.4.4",
     "? boompuff-agriculture >= 1.1.0",
-    "? fluroflux >= 1.0.2"
+    "? fluroflux >= 1.0.2",
+    "? pHactorio >= 0.2.1",
+
+    "(?) Flare Stack >= 4.1.1"
   ],
   "spoiling_required": true,
   "package": {
