@@ -6,7 +6,9 @@ Date: 2026-07-13
     - Configure proper import location for canned and frozen vanilla spoilage solution items.
     - Move canned items and their recipes to barreling group if installed.
     - If not, move canned items and their recipes to bioprocessing tab if installed.
-    - Move frozen items and theirrecipes to bioprocessing tab if installed.
+    - Move frozen items and their recipes to bioprocessing tab if installed.
+    - Hide canned items and their recipes from factoriopedia and player crafting (configurable).
+    - Hide frozen items and their recipes from factoriopedia and player crafting (configurable).
     - Frozen spoilables spoil to frozen spoilage instead of normal spoilage (configurable).
   Compatibility:
     - Add support for Boompuff Agriculture.

@@ -63,3 +63,19 @@ khaoslib_setting:load {
   default_value = true,
   order = "b[tweaks]-c[frozen-eggs]",
 } :commit()
+
+khaoslib_setting:load {
+  type = "bool-setting",
+  name = "spoilage-solution-and-more-tweaks-hide-canned",
+  setting_type = "startup",
+  default_value = true,
+  order = "b[tweaks]-d[hide-canned]",
+} :commit()
+
+khaoslib_setting:load {
+  type = "bool-setting",
+  name = "spoilage-solution-and-more-tweaks-hide-frozen",
+  setting_type = "startup",
+  default_value = true,
+  order = "b[tweaks]-e[hide-frozen]",
+} :commit()
