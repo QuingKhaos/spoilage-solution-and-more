@@ -53,5 +53,13 @@ khaoslib_setting:load {
   name = "spoilage-solution-and-more-tweaks-frozen-spoilage",
   setting_type = "startup",
   default_value = true,
-  order = "b[tweaks]-a[aquilo-seabloom-algaculture]-b[frozen-spoilage]",
+  order = "b[tweaks]-b[frozen-spoilage]",
+} :commit()
+
+khaoslib_setting:load {
+  type = "bool-setting",
+  name = "spoilage-solution-and-more-tweaks-frozen-eggs",
+  setting_type = "startup",
+  default_value = true,
+  order = "b[tweaks]-c[frozen-eggs]",
 } :commit()
