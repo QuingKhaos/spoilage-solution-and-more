@@ -51,7 +51,7 @@ if mods["aquilo-seabloom-algaculture"] and settings.startup["spoilage-solution-a
       name = "seawilt",
       icons = khaoslib_item.get_icons("seawilt"),
       order = "d[agriculture]-e[frozen-agro]-a[frozen-seawilt]",
-      subgroup = "aquilo-processes",
+      subgroup = mods["bioprocessing-tab"] and "aquilo-algaculture" or "aquilo-processes",
       default_import_location = "aquilo",
       no_spoilage = true,
     }
@@ -66,7 +66,7 @@ if mods["aquilo-seabloom-algaculture"] and settings.startup["spoilage-solution-a
     name = "seaweed",
     icons = khaoslib_capsule.get_icons("seaweed"),
     order = "d[agriculture]-e[frozen-agro]-b[frozen-seaweed]",
-    subgroup = "aquilo-processes",
+    subgroup = mods["bioprocessing-tab"] and "aquilo-algaculture" or "aquilo-processes",
     default_import_location = "aquilo",
     spoil_result = "seawilt",
   }
@@ -79,7 +79,7 @@ if mods["aquilo-seabloom-algaculture"] and settings.startup["spoilage-solution-a
     name = "seabloom",
     icons = khaoslib_capsule.get_icons("seabloom"),
     order = "d[agriculture]-e[frozen-agro]-c[frozen-seabloom]",
-    subgroup = "aquilo-processes",
+    subgroup = mods["bioprocessing-tab"] and "aquilo-algaculture" or "aquilo-processes",
     default_import_location = "aquilo",
     spoil_result = settings.startup["spoilage-solution-and-more-tweaks-frozen-seawilt"].value and "frozen-seawilt" or "seawilt",
   }

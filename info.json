@@ -21,6 +21,8 @@
     "? fluroflux >= 1.0.2",
     "? pHactorio >= 0.2.1",
 
+    "? barreling-group2 >= 0.5.1",
+    "? bioprocessing-tab >= 1.5.0",
     "(?) Flare Stack >= 4.1.1"
   ],
   "spoiling_required": true,
