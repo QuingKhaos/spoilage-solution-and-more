@@ -13,6 +13,7 @@ it a bit. If you don't like the support for a given mod or a tweak, each one can
 ## Compatible mods
 
 - [Boompuff Agriculture](https://mods.factorio.com/mod/boompuff-agriculture)
+- [Fluroflux: Stingfrond Agriculture](https://mods.factorio.com/mod/fluroflux)
 - [Wooden Aquilo: Seabloom Algaculture](https://mods.factorio.com/mod/aquilo-seabloom-algaculture)
 
 If you want to see another mod supported, please open a discussion thread on the mod portal or an issue on GitHub or join

@@ -1,7 +1,7 @@
 {
   "name": "spoilage-solution-and-more",
   "title": "Spoilage Solution and More",
-  "description": "Adds Spoilage Solution support to several other mods and tweaks it a bit.",
+  "description": "Adds Spoilage Solution support to several other mods and tweaks it a bit. Fully configurable.",
   "author": "QuingKhaos",
   "homepage": "https://discord.gg/SYmkaDjFCt",
   "version": "1.0.0",
@@ -16,7 +16,8 @@
     "spoilage-solution-lib >= 1.0.0",
 
     "? aquilo-seabloom-algaculture >= 0.4.4",
-    "? boompuff-agriculture >= 1.1.0"
+    "? boompuff-agriculture >= 1.1.0",
+    "? fluroflux >= 1.0.2"
   ],
   "spoiling_required": true,
   "package": {
