@@ -4,7 +4,7 @@
   "description": "Adds Spoilage Solution support to several other mods and tweaks it a bit. Configurable!",
   "author": "QuingKhaos",
   "homepage": "https://discord.gg/SYmkaDjFCt",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "factorio_version": "2.0",
   "dependencies": [
     "base >= 2.0.77",
@@ -19,6 +19,7 @@
     "? aquilo-seabloom-algaculture >= 0.4.4",
     "? boompuff-agriculture >= 1.1.0",
     "? fluroflux >= 1.0.2",
+    "? fulgora-coralmium-agriculture >= 1.2.7",
     "? pHactorio >= 0.2.1",
 
     "? barreling-group2 >= 0.5.1",

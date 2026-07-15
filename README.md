@@ -16,6 +16,7 @@ it a bit. If you don't like the support for a given mod or a tweak, each one can
 - [Fluroflux: Stingfrond Agriculture](https://mods.factorio.com/mod/fluroflux)
 - [pHactorio](https://mods.factorio.com/mod/pHactorio)
 - [Wooden Aquilo: Seabloom Algaculture](https://mods.factorio.com/mod/aquilo-seabloom-algaculture)
+- [Wooden Fulgora: Coralmium Agriculture](https://mods.factorio.com/mod/fulgora-coralmium-agriculture)
 
 If you want to see another mod supported, please open a discussion thread on the mod portal, or an issue on GitHub, or join
 the Discord server and let me know.

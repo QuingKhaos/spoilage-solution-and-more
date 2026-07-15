@@ -6,7 +6,7 @@ if mods["aquilo-seabloom-algaculture"] then
     name = "spoilage-solution-and-more-compat-aquilo-seabloom-algaculture",
     setting_type = "startup",
     default_value = true,
-    order = "a[compat]-d[aquilo-seabloom-algaculture]",
+    order = "a[compat]-b[aquilo-seabloom-algaculture]",
   } :commit()
 
   khaoslib_setting:load {
@@ -34,7 +34,17 @@ if mods["fluroflux"] then
     name = "spoilage-solution-and-more-compat-fluroflux",
     setting_type = "startup",
     default_value = true,
-    order = "a[compat]-b[fluroflux]",
+    order = "a[compat]-a[fluroflux]",
+  } :commit()
+end
+
+if mods["fulgora-coralmium-agriculture"] then
+  khaoslib_setting:load {
+    type = "bool-setting",
+    name = "spoilage-solution-and-more-compat-fulgora-coralmium-agriculture",
+    setting_type = "startup",
+    default_value = true,
+    order = "a[compat]-b[fulgora-coralmium-agriculture]",
   } :commit()
 end
 
@@ -44,7 +54,7 @@ if mods["pHactorio"] then
     name = "spoilage-solution-and-more-compat-pHactorio",
     setting_type = "startup",
     default_value = true,
-    order = "a[compat]-c[pHactorio]",
+    order = "a[compat]-a[pHactorio]",
   } :commit()
 end
 
