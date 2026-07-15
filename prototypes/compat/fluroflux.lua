@@ -1,6 +1,5 @@
 local khaoslib_item = require("__khaoslib__.prototypes.item")
 local spoilage_solution_lib = require("__spoilage-solution-lib__.lib")
-local util = require("util")
 
 if mods["fluroflux"] and settings.startup["spoilage-solution-and-more-compat-fluroflux"].value then
   --- @type SpoilageSolutionLib.CannedPerishableDefinition

@@ -1,6 +1,5 @@
 local khaoslib_capsule = require("__khaoslib__.prototypes.capsule")
 local spoilage_solution_lib = require("__spoilage-solution-lib__.lib")
-local util = require("util")
 
 if mods["pHactorio"] and settings.startup["spoilage-solution-and-more-compat-pHactorio"].value then
   spoilage_solution_lib.create_canned_perishable {
