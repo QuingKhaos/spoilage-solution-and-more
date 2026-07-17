@@ -1,4 +1,11 @@
 ---------------------------------------------------------------------------------------------------
+Version: 1.2.0
+Date: 2026-07-17
+  Bugfixes:
+    - Fix that spoil to enemy units setting had no effect when disabled.
+  Compatibility:
+    - Add support for Pelagos.
+---------------------------------------------------------------------------------------------------
 Version: 1.1.0
 Date: 2026-07-15
   Compatibility:
