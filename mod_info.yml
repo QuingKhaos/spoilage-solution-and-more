@@ -1,0 +1,12 @@
+mod_info:
+  title: |
+    Spoilage Solution and More
+  summary: |
+    Adds Spoilage Solution support to several other mods and tweaks it a bit. Configurable!
+  description_file: README.md
+  attach_source_link: true
+  license: default_gnugplv3
+  category: content
+  tags:
+    - logistics
+    - manufacturing

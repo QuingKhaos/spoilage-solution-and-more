@@ -1,5 +1,4 @@
 local khaoslib_item = require("__khaoslib__.prototypes.item")
-local khaoslib_recipe = require("__khaoslib__.prototypes.recipe")
 
 if settings.startup["spoilage-solution-and-more-tweaks-frozen-spoilage"].value then
   --- @type data.ItemID[] List of all frozen items.

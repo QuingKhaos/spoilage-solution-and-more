@@ -1,4 +1,3 @@
-local khaoslib_capsule = require("__khaoslib__.prototypes.capsule")
 local khaoslib_item = require("__khaoslib__.prototypes.item")
 local spoilage_solution_lib = require("__spoilage-solution-lib__.lib")
 

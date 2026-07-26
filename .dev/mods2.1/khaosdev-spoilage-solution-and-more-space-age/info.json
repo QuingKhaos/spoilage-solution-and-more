@@ -1,0 +1,33 @@
+{
+  "name": "khaosdev-spoilage-solution-and-more-space-age",
+  "title": "// DEV // Spoilage Solution and More // Space Age //",
+  "description": "",
+  "author": "QuingKhaos",
+  "homepage": "https://discord.gg/SYmkaDjFCt",
+  "version": "0.0.0",
+  "factorio_version": "2.1",
+  "dependencies": [
+    "base",
+    "elevated-rails",
+    "quality",
+    "recycler",
+    "space-age",
+
+    "khaosdev",
+    "ghost-logistics",
+    "remove-animations",
+
+    "barrel-stages",
+    "barreling-group2",
+    "khaosammogroup",
+    "khaosbioprocessinggroup",
+    "? khaoscastinggroup",
+    "khaoscircuitrygroup",
+    "khaosmodulesgroup",
+    "khaostransportgroup",
+    "science-tab",
+
+    "spoilage-solution-and-more"
+  ],
+  "expansion_required": true
+}
