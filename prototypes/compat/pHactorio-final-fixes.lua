@@ -17,7 +17,7 @@ if mods["pHactorio"] and settings.startup["spoilage-solution-and-more-compat-pHa
     khaoslib_recipe.remove("freeze-" .. item_name)
     khaoslib_recipe.remove("unfreeze-" .. item_name)
 
-    if mods["quality"] then
+    if mods["recycler"] then
       khaoslib_recipe.remove("frozen-" .. item_name .. "-recycling")
     end
 
